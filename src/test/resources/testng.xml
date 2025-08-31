@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <suite name="Appium Test Suite" parallel="tests" thread-count="2">
+        <listeners>
+            <listener class-name="listeners.TestNGAllureListener"/>
+        </listeners>
+
+        <test name="Android Login Tests">
+            <parameter name="platform" value="android"/>
+            <parameter name="deviceName" value="emulator-5554"/>
+            <parameter name="index" value="0"/>
+            <classes>
+                <class name="tests.LoginTests"/>
+            </classes>
+        </test>
+
+        <test name="IOS Login Tests">
+            <parameter name="platform" value="ios"/>
+            <parameter name="deviceName" value="iPhone 16 Plus"/>
+            <parameter name="index" value="0"/>
+            <classes>
+                <class name="tests.LoginTests"/>
+            </classes>
+        </test>
+    </suite>
