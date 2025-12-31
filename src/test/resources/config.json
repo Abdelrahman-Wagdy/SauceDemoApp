@@ -5,7 +5,7 @@
       "udid": "emulator-5554",
       "automationName": "UiAutomator2",
       "platformVersion": "11.0",
-      "app": "/Users/abdelrahmanwagdy/JavaReport/src/main/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+      "app": "/Users/abdelrahmanwagdy/Automation Projects/SauceDemoApp/src/main/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
       "appWaitDuration": 30000,
       "appWaitActivity": "com.swaglabsmobileapp.MainActivity",
       "newCommandTimeout": 1000000,
@@ -21,7 +21,7 @@
       "udid": "81025F83-0B10-4060-96DF-871105BD1F0D",
       "automationName": "XCUITest",
       "platformVersion": "18.6",
-      "app": "/Users/abdelrahmanwagdy/JavaReport/src/main/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app",
+      "app": "/Users/abdelrahmanwagdy/Automation Projects/SauceDemoApp/src/main/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app",
       "newCommandTimeout": 1000000
     }
   ]
